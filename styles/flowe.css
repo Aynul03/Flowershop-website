@@ -4,6 +4,10 @@ body {
     font-family: 'Open sans', sans-serif;
 }
 
+span {
+    color: #E55473;
+}
+
 /* nav related style */
 nav {
     display: flex;
@@ -88,7 +92,7 @@ nav a {
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
-    
+
 }
 
 .pink-flower-tree1 {
@@ -113,23 +117,72 @@ nav a {
 }
 
 
-.featured{
+.featured {
     text-align: center;
 }
 
-.hot-deal{
+.hot-deal {
     display: flex;
     padding: 100px 430px;
     margin: 128px 0;
     align-items: center;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);;
+    background: rgba(229, 84, 115, 0.05);
+    ;
 }
 
 .hot-deal-desc {
     padding: 30px 100px;
 }
 
+.social-media {
+    margin-bottom: 128px;
+}
+
 .flower-images img {
     margin: 10px;
+}
+
+.latest {
+    background: url(../flower-images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 122px 287px;
+    margin: 128px 240px;
+}
+
+input {
+    width: 700px;
+    border-radius: 8px;
+    padding: 18px;
+}
+
+footer {
+    background: #272727;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.footer-title {
+    justify-content: center;
+    padding: 300px;
+
+}
+
+.text {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+
+}
+
+.copy-text {
+
+    text-align: center;
+    color: white;
+}
+.video{
+    justify-content: center;
 }

@@ -38,6 +38,7 @@ nav a {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-around;
+    padding-left: 240px;
 
 }
 
@@ -55,19 +56,8 @@ nav a {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    display: flex;
-    width: 708px;
     flex-direction: column;
     flex-shrink: 0;
-
-}
-
-.banner-desc {
-    padding: 160px 200px;
-}
-
-.banner-flower {
-    padding-top: 260px;
 }
 
 .para {
@@ -147,7 +137,7 @@ nav a {
     background: url(../flower-images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 122px 287px;
+    padding: 120px 0;
     margin: 128px 240px;
 }
 
@@ -159,30 +149,24 @@ input {
 
 footer {
     background: #272727;
-    width: 1922px;
-    height: 449px;
-    flex-shrink: 0;
+    width: 100%;
+    padding: 128px 0;
     text-align: center;
 }
 
 .footer-title {
-    text-align: center;
-    padding: 300px;
-    padding-top: 128px;
-
+    font-size: 48px;
+    font-style: 800;
 }
 
 .text {
     text-align: center;
     color: white;
-    padding-top: 200px;
-
 }
 
 .copy-text {
-
-    text-align: center;
     color: white;
+    padding-top: 20px;
 }
 .video{
     justify-content: center;
@@ -193,6 +177,8 @@ footer {
 .flower-name{
     display: flex;
     justify-content: space-evenly;
+    font-weight: 700;
+    font-size: 24px;
     
 }
 .flower-name a{

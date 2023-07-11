@@ -162,12 +162,13 @@ footer {
     width: 1922px;
     height: 449px;
     flex-shrink: 0;
-    justify-content: center;
+    text-align: center;
 }
 
 .footer-title {
-    justify-content: center;
+    text-align: center;
     padding: 300px;
+    padding-top: 128px;
 
 }
 
@@ -185,4 +186,18 @@ footer {
 }
 .video{
     justify-content: center;
+}
+.shop{
+    color: white;
+}
+.flower-name{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.flower-name a{
+    color: #272727;
+}
+.special{
+    text-align: center;
 }

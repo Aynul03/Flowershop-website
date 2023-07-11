@@ -116,3 +116,20 @@ nav a {
 .featured{
     text-align: center;
 }
+
+.hot-deal{
+    display: flex;
+    padding: 100px 430px;
+    margin: 128px 0;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);;
+}
+
+.hot-deal-desc {
+    padding: 30px 100px;
+}
+
+.flower-images img {
+    margin: 10px;
+}
